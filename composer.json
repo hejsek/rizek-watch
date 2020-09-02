@@ -1,0 +1,16 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "6.3.0",
+        "querypath/querypath": "3.0.5",
+        "tracy/tracy": "^2.7",
+        "squizlabs/php_codesniffer": "^3.5",
+      "ext-iconv": "*",
+        "php-amqplib/php-amqplib": "^2.12"
+    },
+    "scripts": {
+        "phpcs": "phpcs --standard=PSR2"
+    },
+    "autoload": {
+        "psr-0": {"RizekWatch": "src/"}
+    }
+}
